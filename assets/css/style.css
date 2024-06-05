@@ -1,85 +1,88 @@
 /*** Generales ***/
 body {
-    padding: 0;
-    margin: 0;
-    font-family: "Nunito", sans-serif;
+  padding: 0;
+  margin: 0;
+  font-family: "Nunito", sans-serif;
 }
-h1, h2, p, img {
-    margin: 0;
+h1,
+h2,
+p,
+img {
+  margin: 0;
 }
 p {
-    font-size: 16px;
+  font-size: 16px;
 }
 a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 a:hover {
-    text-decoration: underline;
-    color: white;
+  text-decoration: underline;
+  color: white;
 }
 #imagen {
-    width: 200px;
-    height: auto;
+  width: 200px;
+  height: auto;
 }
 /*** Header ***/
 .banner {
-    background-color: blueviolet;
-    filter: drop-shadow(0px 6px 4px #717171);
-    background-image: url(../img/fondo.png);
+  background-color: blueviolet;
+  filter: drop-shadow(0px 6px 4px #717171);
+  background-image: url(../img/fondo.png);
 }
 /*** Main ***/
 .seccion_contenido {
-    background-color: bisque;
-    background-image: url(../img/fondo.png);
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
+  background-color: bisque;
+  background-image: url(../img/fondo.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .seccion_titulo h2 {
-    filter: drop-shadow(0px 6px 4px #717171);
+  filter: drop-shadow(0px 6px 4px #717171);
 }
 .seccion_titulo sup {
-    font-size: 14px;
+  font-size: 14px;
 }
 .card {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: auto;
-    min-height: 800px;
-    align-items: center;
-    justify-content: flex-start;
-    background-color: beige;
-    filter: drop-shadow(0px 6px 4px #717171);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  min-height: 800px;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: beige;
+  filter: drop-shadow(0px 6px 4px #717171);
 }
 .card-img {
-    width: 100%;
-    height: auto;
-    max-width: 200px;
-    max-height: 300px;
+  width: 100%;
+  height: auto;
+  max-width: 200px;
+  max-height: 300px;
 }
 .card-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: auto;
 }
 .card_boton {
-    background-color: blueviolet;
-    border: none;
-    max-width: 200px;
-    cursor: pointer;
-    align-self: center;
-    margin-top: auto;
+  background-color: blueviolet;
+  border: none;
+  max-width: 200px;
+  cursor: pointer;
+  align-self: center;
+  margin-top: auto;
 }
 .card_boton:hover {
-    background-color: #a96be3;
+  background-color: #a96be3;
 }
 /*** Footer ***/
 .footer {
-    background-color: blueviolet;
-    background-image: url(../img/fondo.png);
-    filter: drop-shadow(4px 0px 6px #717171);
+  background-color: blueviolet;
+  background-image: url(../img/fondo.png);
+  filter: drop-shadow(4px 0px 6px #717171);
 }
