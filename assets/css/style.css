@@ -10,25 +10,12 @@ h1, h2, p, img {
 p {
     font-size: 16px;
 }
-.texto_blanco {
-    color: white;
-}
-.texto_bold {
-    font-weight: bold;
-}
 .titulo_seccion {
     font-size: 20px;
 }
 /*** Header ***/
 .banner {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 20px;
     background-color: blueviolet;
-    padding-top: 10px;
-    padding-bottom: 40px;
     filter: drop-shadow(0px 6px 4px #717171);
     background-image: url(../img/fondo.png);
 }
@@ -36,47 +23,41 @@ p {
     width: 200px;
     height: auto;
 }
-h1 {
-    color: white;
-    font-weight: bold;
-}
 /*** Main ***/
-.seccion_nes {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: auto;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    gap: 50px;
+.seccion_contenido {
     background-color: bisque;
     background-image: url(../img/fondo.png);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
 }
-.titulo_seccion {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 40px;
-}
-.titulo_seccion h2 {
-    font-size: 35px;
-    color: white;
+.seccion_titulo h2 {
     background-color: #e93323;
-    padding: 10px;
-    border-radius: 10px;
     filter: drop-shadow(0px 6px 4px #717171);
 }
-.titulo_seccion img {
+.seccion_titulo img {
     width: 200px;
     height: auto;
 }
-.titulo_seccion sup {
+.seccion_titulo sup {
     font-size: 14px;
+}
+.card {
+    width: auto;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    max-height: auto;
+    background-color: beige;
+    filter: drop-shadow(0px 6px 4px #717171);
+}
+.card-img-top {
+    width: 70%;
+    max-height: auto;
+    border-radius: 5px;
+    gap: 10px;
+    text-align: center;
 }
 .producto_contenedor {
     display: flex;
@@ -85,33 +66,11 @@ h1 {
     justify-content: center;
     gap: 20px;
     border-radius: 20px;
-    padding: 10px;
-    margin: 10px;
     width: auto;
     height: auto;
     max-width: 600px;
     max-height: auto;
-    background-color: beige;
-    filter: drop-shadow(0px 6px 4px #717171);
-}
-.producto_fila {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-    gap: 20px;
-}
-.producto_imagen {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    width: 50%;
-    height: 100%;
-    background-color: gainsboro;
-    border-radius: 5px;
-    gap: 10px;
-    text-align: center;
+    
 }
 .producto_imagen img {
     width: 60%;
