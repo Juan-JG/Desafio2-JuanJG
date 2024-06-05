@@ -45,22 +45,26 @@ a:hover {
 .card {
     display: flex;
     flex-direction: column;
-    width: auto;
+    width: 100%;
+    height: auto;
+    min-height: 800px;
     align-items: center;
-    max-width: 500px;
-    min-height: 750px;
+    justify-content: flex-start;
     background-color: beige;
     filter: drop-shadow(0px 6px 4px #717171);
 }
 .card-img {
-    width: 200px;
-    height: 300px
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+    max-height: 300px;
 }
 .card-body {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
+    height: auto;
 }
 .card_boton {
     background-color: blueviolet;
