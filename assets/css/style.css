@@ -37,19 +37,18 @@ a:hover {
     background-repeat: no-repeat;
 }
 .seccion_titulo h2 {
-    background-color: #e93323;
     filter: drop-shadow(0px 6px 4px #717171);
 }
 .seccion_titulo sup {
     font-size: 14px;
 }
 .card {
+    display: flex;
+    flex-direction: column;
     width: auto;
-    height: auto;
-    justify-content: space-between;
     align-items: center;
     max-width: 500px;
-    min-height: 700px;
+    min-height: 750px;
     background-color: beige;
     filter: drop-shadow(0px 6px 4px #717171);
 }
@@ -58,11 +57,19 @@ a:hover {
     height: auto;
     max-height: 300px;
 }
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
 .card_boton {
     background-color: blueviolet;
     border: none;
     max-width: 200px;
     cursor: pointer;
+    align-self: center;
+    margin-top: auto;
 }
 .card_boton:hover {
     background-color: #a96be3;
