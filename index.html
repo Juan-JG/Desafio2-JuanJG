@@ -18,7 +18,7 @@
   <header>
     <div class="banner d-flex flex-column align-items-center justify-content-center text-center gap-5 py-5">
       <div>
-        <img src="assets/img/logo.png" alt="Retro Games logo" />
+        <img id="imagen" src="assets/img/logo.png" alt="Retro Games logo" />
       </div>
       <div class="m-2">
         <h1 class="text-white fw-bold">LO MEJOR EN RETRO GAMING</h1>
@@ -33,17 +33,17 @@
     <div
       class="seccion_contenido d-flex flex-column w-100 h-auto justify-content-center align-content-center p-5 gap-5">
       <div class="seccion_titulo d-flex flex-column w-100 h-auto align-items-center gap-5">
-        <h2 class="text-white p-5 rounded-5">CATÁLOGO NES<sup>®</sup></h2>
-        <img src="assets/img/nes_logo.png" alt="NES logo" />
+        <h2 class="text-white p-5 rounded-4">CATÁLOGO NES<sup>®</sup></h2>
+        <img id="imagen" src="assets/img/nes_logo.png" alt="NES logo" />
       </div>
       <div class="d-flex flex-column justify-content-center align-items-center gap-5">
-        <div class="row justify-content-center align-items-center gap-5">
-          <div class="card p-2 rounded-4 text-center gap-3">
-            <h2 class="card-title text-bg-dark p-2 rounded-2">Battletoads</h2>
-            <img src="assets/img/nes_battletoads.jpg" class="card-img-top" alt="...">
+        <div class="row justify-content-center align-items-start gap-5">
+          <div class="card p-2 rounded-4 text-center gap-1">
+            <h2 class="card-title text-white p-2 rounded-3 w-100 text-bg-dark">Battletoads</h2>
+            <img src="assets/img/nes_battletoads.jpg" class="card-img card-img-top rounded-2 my-2" alt="...">
             <p class="fw-bold">Box Art</p>
             <div class="card-body gap-5">
-              <div class="d-flex flex-column gap-3 text-center">
+              <div class="d-flex flex-column gap-2 text-center">
                 <p class="card-text">
                   <span class="fw-bold">Plataforma:</span> Nintendo Entertainment System
                 </p>
@@ -55,131 +55,168 @@
                 <p class="card-text fw-bold">3 unidades en stock</p>
                 <p class="card-text fw-bold">Precio: $40.000</p>
                 </p>
-                <a href="index.html"><button class="producto_boton" type="button">
+                <a href="index.html"><button class="card_boton fw-bold text-white px-3 py-3 rounded-3" type="button">
                     Más información
                   </button></a>
               </div>
             </div>
           </div>
-          <div class="producto_contenedor">
-            <div class="producto_imagen">
-              <p class="producto_titulo texto_bold">Box Art</p>
-              <img src="assets/img/nes_castlevania.png" alt="Carátula juego NES - Castlevania" />
-            </div>
-            <div class="producto_descripcion">
-              <p class="producto_titulo texto_bold">Castlevania</p>
-              <p>
-                <span class="texto_bold">Plataforma:</span> Nintendo Entertainment
-                System
-              </p>
-              <p>
-                <span class="texto_bold">Descripción:</span> Simon Belmont debe
-                derrotar al Conde Drácula en su castillo infestado de monstruos
-                con su poderoso látigo "Vampire Killer".
-              </p>
-              <p class="texto_bold">8 unidades en stock</p>
-              <p class="texto_bold producto_precio">Precio: $30.000</p>
-              <a href="index.html"><button class="producto_boton" type="button">
-                  Más información
-                </button></a>
-            </div>
-          </div>
-          <div class="producto_contenedor">
-            <div class="producto_imagen">
-              <p class="producto_titulo texto_bold">Box Art</p>
-              <img src="assets/img/nes_metroid.jpg" alt="Carátula juego NES - Metroid" />
-            </div>
-            <div class="producto_descripcion">
-              <p class="producto_titulo texto_bold">Metroid</p>
-              <p>
-                <span class="texto_bold">Plataforma:</span> Nintendo Entertainment
-                System
-              </p>
-              <p>
-                <span class="texto_bold">Descripción:</span> Acompaña a Samus
-                Aran, una cazarrecompensas galáctica, en su lucha contra piratas
-                espaciales y criaturas alienígenas en el laberíntico planeta
-                Zebes.
-              </p>
-              <p class="texto_bold">2 unidades en stock</p>
-              <p class="texto_bold producto_precio">Precio: $35.000</p>
-              <a href="index.html"><button class="producto_boton" type="button">
-                  Más información
-                </button></a>
+          <div class="card p-2 rounded-4 text-center gap-1">
+            <h2 class="card-title text-white p-2 rounded-3 w-100 text-bg-dark">Castlevania</h2>
+            <img src="assets/img/nes_castlevania.png" class="card-img card-img-top rounded-2 my-2" alt="...">
+            <p class="fw-bold">Box Art</p>
+            <div class="card-body gap-5">
+              <div class="d-flex flex-column gap-2 text-center">
+                <p class="card-text">
+                  <span class="fw-bold">Plataforma:</span> Nintendo Entertainment System
+                </p>
+                <p class="card-text">
+                  <span class="fw-bold">Descripción:</span> Usando su poderoso látigo "Vampire Killer", Simon Belmont debe
+                  derrotar al Conde Drácula en su castillo infestado de monstruos.
+                </p>
+                <p class="card-text fw-bold">8 unidades en stock</p>
+                <p class="card-text fw-bold">Precio: $30.000</p>
+                </p>
+                <a href="index.html"><button class="card_boton fw-bold text-white px-3 py-3 rounded-3" type="button">
+                    Más información
+                  </button></a>
+              </div>
             </div>
           </div>
+          <div class="card p-2 rounded-4 text-center gap-1">
+            <h2 class="card-title text-white p-2 rounded-3 w-100 text-bg-dark">Metroid</h2>
+            <img src="assets/img/nes_metroid.jpg" class="card-img card-img-top rounded-2 my-2" alt="...">
+            <p class="fw-bold">Box Art</p>
+            <div class="card-body gap-5">
+              <div class="d-flex flex-column gap-2 text-center">
+                <p class="card-text">
+                  <span class="fw-bold">Plataforma:</span> Nintendo Entertainment System
+                </p>
+                <p class="card-text">
+                  <span class="fw-bold">Descripción:</span> Acompaña a Samus
+                  Aran, una cazarrecompensas galáctica, en su lucha contra piratas
+                  espaciales y criaturas alienígenas en el laberíntico planeta
+                  Zebes.
+                </p>
+                <p class="card-text fw-bold">2 unidades en stock</p>
+                <p class="card-text fw-bold">Precio: $35.000</p>
+                </p>
+                <a href="index.html"><button class="card_boton fw-bold text-white px-3 py-3 rounded-3" type="button">
+                    Más información
+                  </button></a>
+              </div>
+            </div>
+          </div>
+          <div class="card p-2 rounded-4 text-center gap-1">
+            <h2 class="card-title text-white p-2 rounded-3 w-100 text-bg-dark">Donkey Kong</h2>
+            <img src="assets/img/nes_donkeykong.webp" class="card-img card-img-top rounded-2 my-2" alt="...">
+            <p class="fw-bold">Box Art</p>
+            <div class="card-body gap-5">
+              <div class="d-flex flex-column gap-2 text-center">
+                <p class="card-text">
+                  <span class="fw-bold">Plataforma:</span> Nintendo Entertainment System
+                </p>
+                <p class="card-text">
+                  <span class="fw-bold">Descripción:</span> Mario deberá rescatar a Pauline de las garras de Donkey Kong saltando barriles en este clásico de arcade.
+                </p>
+                <p class="card-text fw-bold">10 unidades en stock</p>
+                <p class="card-text fw-bold">Precio: $20.000</p>
+                </p>
+                <a href="index.html"><button class="card_boton fw-bold text-white px-3 py-3 rounded-3" type="button">
+                    Más información
+                  </button></a>
+              </div>
+            </div>
+          </div>
+          
         </div>
-        <div class="row justify-content-center align-items-center gap-5">
-          <div class="producto_contenedor">
-            <div class="producto_imagen">
-              <p class="producto_titulo texto_bold">Box Art</p>
-              <img src="assets/img/nes_tmnt.jpg" alt="Carátula juego NES - TMNT" />
-            </div>
-            <div class="producto_descripcion">
-              <p class="producto_titulo texto_bold">
-                Teenage Mutant Ninja Turtles
-              </p>
-              <p>
-                <span class="texto_bold">Plataforma:</span> Nintendo Entertainment
-                System
-              </p>
-              <p>
-                <span class="texto_bold">Descripción:</span> Las tortugas ninjas
-                deberán salvar a sus amigos una vez más. Usar las habilidades de
-                cada tortuga será vital para el éxito.
-              </p>
-              <p class="texto_bold">9 unidades en stock</p>
-              <p class="texto_bold producto_precio">Precio: $25.000</p>
-              <a href="index.html"><button class="producto_boton" type="button">
-                  Más información
-                </button></a>
+        <div class="row justify-content-center align-items-start gap-5">
+          <div class="card p-2 rounded-4 text-center gap-1">
+            <h2 class="card-title text-white p-2 rounded-3 w-100 text-bg-dark">Teenage Mutant Ninja Turtles</h2>
+            <img src="assets/img/nes_tmnt.jpg" class="card-img card-img-top rounded-2 my-2" alt="...">
+            <p class="fw-bold">Box Art</p>
+            <div class="card-body gap-5">
+              <div class="d-flex flex-column gap-2 text-center">
+                <p class="card-text">
+                  <span class="fw-bold">Plataforma:</span> Nintendo Entertainment System
+                </p>
+                <p class="card-text">
+                  <span class="fw-bold">Descripción:</span> Las tortugas ninjas
+                  deberán salvar a sus amigos una vez más. Usar las habilidades de
+                  cada tortuga será vital para el éxito.
+                </p>
+                <p class="card-text fw-bold">9 unidades en stock</p>
+                <p class="card-text fw-bold">Precio: $25.000</p>
+                </p>
+                <a href="index.html"><button class="card_boton fw-bold text-white px-3 py-3 rounded-3" type="button">
+                    Más información
+                  </button></a>
+              </div>
             </div>
           </div>
-          <div class="producto_contenedor">
-            <div class="producto_imagen">
-              <p class="producto_titulo texto_bold">Box Art</p>
-              <img src="assets/img/nes_kirbysadventure.webp" alt="Carátula juego NES - Kirby's Adventure" />
-            </div>
-            <div class="producto_descripcion">
-              <p class="producto_titulo texto_bold">Kirby's Adventure</p>
-              <p>
-                <span class="texto_bold">Plataforma:</span> Nintendo Entertainment
-                System
-              </p>
-              <p>
-                <span class="texto_bold">Descripción:</span> Kirby debe recuperar los fragmentos de la Star Rod para
-                restaurar los sueños en Dream Land, utilizando su habilidad de absorber enemigos y copiar sus poderes.
-              </p>
-              <p class="texto_bold">4 unidades en stock</p>
-              <p class="texto_bold producto_precio">Precio: $50.000</p>
-              <a href="index.html"><button class="producto_boton" type="button">
-                  Más información
-                </button></a>
+          <div class="card p-2 rounded-4 text-center gap-1">
+            <h2 class="card-title text-white p-2 rounded-3 w-100 text-bg-dark">Kirby's Adventure</h2>
+            <img src="assets/img/nes_kirbysadventure.webp" class="card-img card-img-top rounded-2 my-2" alt="...">
+            <p class="fw-bold">Box Art</p>
+            <div class="card-body gap-5">
+              <div class="d-flex flex-column gap-2 text-center">
+                <p class="card-text">
+                  <span class="fw-bold">Plataforma:</span> Nintendo Entertainment System
+                </p>
+                <p class="card-text">
+                  <span class="fw-bold">Descripción:</span> Kirby debe recuperar los fragmentos de la Star Rod para
+                  restaurar los sueños en Dream Land, utilizando su habilidad de absorber enemigos y copiar sus poderes.
+                </p>
+                <p class="card-text fw-bold">4 unidades en stock</p>
+                <p class="card-text fw-bold">Precio: $50.000</p>
+                </p>
+                <a href="index.html"><button class="card_boton fw-bold text-white px-3 py-3 rounded-3" type="button">
+                    Más información
+                  </button></a>
+              </div>
             </div>
           </div>
-          <div class="producto_contenedor">
-            <div class="producto_imagen">
-              <p class="producto_titulo texto_bold">Box Art</p>
-              <img src="assets/img/nes_supermariobros2.jpg" alt="Carátula juego NES - Super Mario Bros. 2" />
+          <div class="card p-2 rounded-4 text-center gap-1">
+            <h2 class="card-title text-white p-2 rounded-3 w-100 text-bg-dark">Super Mario Bros. 2</h2>
+            <img src="assets/img/nes_supermariobros2.jpg" class="card-img card-img-top rounded-2 my-2" alt="...">
+            <p class="fw-bold">Box Art</p>
+            <div class="card-body gap-5">
+              <div class="d-flex flex-column gap-2 text-center">
+                <p class="card-text">
+                  <span class="fw-bold">Plataforma:</span> Nintendo Entertainment System
+                </p>
+                <p class="card-text">
+                  <span class="fw-bold">Descripción:</span> Mario, Luigi, Toad y Peach deben rescatar el mundo de
+                  Subcon de las garras del malvado Wart, usando sus habilidades y objetos arrojables.
+                </p>
+                <p class="card-text fw-bold">12 unidades en stock</p>
+                <p class="card-text fw-bold">Precio: $25.000</p>
+                </p>
+                <a href="index.html"><button class="card_boton fw-bold text-white px-3 py-3 rounded-3" type="button">
+                    Más información
+                  </button></a>
+              </div>
             </div>
-            <div class="producto_descripcion">
-              <p class="producto_titulo texto_bold">
-                Super Mario Bros. 2
-              </p>
-              <p>
-                <span class="texto_bold">Plataforma:</span> Nintendo Entertainment
-                System
-              </p>
-              <p>
-                <span class="texto_bold">Descripción:</span> Mario, Luigi, Toad y Peach deben rescatar el mundo de
-                Subcon
-                de las garras del malvado Wart, usando sus habilidades y objetos arrojables.
-              </p>
-              <p class="texto_bold">12 unidades en stock</p>
-              <p class="texto_bold producto_precio">Precio: $25.000</p>
-              <a href="index.html"><button class="producto_boton" type="button">
-                  Más información
-                </button></a>
+          </div>
+          <div class="card p-2 rounded-4 text-center gap-1">
+            <h2 class="card-title text-white p-2 rounded-3 w-100 text-bg-dark">Pac-Man</h2>
+            <img src="assets/img/nes_pacman.webp" class="card-img card-img-top rounded-2 my-2" alt="...">
+            <p class="fw-bold">Box Art</p>
+            <div class="card-body gap-5">
+              <div class="d-flex flex-column gap-2 text-center">
+                <p class="card-text">
+                  <span class="fw-bold">Plataforma:</span> Nintendo Entertainment System
+                </p>
+                <p class="card-text">
+                  <span class="fw-bold">Descripción:</span> Icónico videojuego arcade de 1980. Guía a Pac-Man a través de un laberinto comiendo puntos y evitando fantasmas
+                </p>
+                <p class="card-text fw-bold">3 unidades en stock</p>
+                <p class="card-text fw-bold">Precio: $35.000</p>
+                </p>
+                <a href="index.html"><button class="card_boton fw-bold text-white px-3 py-3 rounded-3" type="button">
+                    Más información
+                  </button></a>
+              </div>
             </div>
           </div>
         </div>
@@ -187,15 +224,15 @@
     </div>
   </main>
   <footer>
-    <div class="footer">
-      <div class="footer_logo">
-        <img src="assets/img/logo.png" alt="Retro Games logo" />
+    <div class="footer d-flex flex-row justify-content-center align-items-center w-100 h-auto gap-5 p-5">
+      <div>
+        <img id="imagen" src="assets/img/logo.png" alt="Retro Games logo" />
       </div>
-      <div class="footer_navegacion">
+      <div class="d-flex flex-column gap-3">
         <div class="footer_titulo">
-          <p>Nuestro sitio</p>
+          <p class="text-white fw-bold">Nuestro sitio</p>
         </div>
-        <div class="footer_links">
+        <div class="footer_links d-flex flex-column w-auto h-auto">
           <a href="index.html">
             <p>Novedades</p>
           </a>
